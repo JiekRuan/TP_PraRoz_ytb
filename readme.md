@@ -1,4 +1,4 @@
-### *** TP sur la correction du site de PraRoz ***
+# TP sur la correction du site de PraRoz 
 
 Lors de ce TP nous devons relever les erreurs présente dans le code source HTML, CSS et JS.</br>
 Puis une fois toute les erreurs noté sur un Readme, nous allons procèder à la correction de celle-ci. En plus, de réaliser la responsive ainsi que le js non fonctionnelle.
