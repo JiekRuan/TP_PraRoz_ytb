@@ -1,8 +1,8 @@
 ## HTML
 
-pas de sous dossier (asset / css / js)
+il n'y a pas de sous dossier (asset / css / js)
 
-code non SEMANTIQUE
+le code est non SEMANTIQUE
 
 absence de balises "meta" pour le viewport et l'encodage.
 
