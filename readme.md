@@ -36,3 +36,5 @@ inversion entre h1 et h2
 - Le DOM pour charger la page js avant.
 - possibiliter de déclarer les variables avec ``let`` au lieu de ``var```
 - déclarer les variables au début du code pour les utiliser de maniere globale
+
+### Pour voir la page [ici]url(https://jiekruan.github.io/TP_PraRoz_ytb/test.html)
