@@ -1,0 +1,57 @@
+@media screen and (max-width: 60rem){
+    header{
+        align-items: center;
+        text-align: center;
+        height: auto;
+        flex-direction: column;
+        align-self: auto;
+    }
+    header .menu{
+        display: flex;
+    }
+    header .menu ul{
+        display: flex;
+        align-content: flex-end;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main, header, footer{
+        padding: 1rem;
+    }
+    header .logo{
+        text-align: center;
+        padding-left: 0rem;
+    }
+    main .content{
+        padding-top: 0rem;
+    }
+    main .content h1{
+        text-align: center;
+        font-size: 4rem;
+    }
+    main .content span{
+        font-size: 4rem;
+    }
+    main .content .par {
+        text-align: start;
+    }
+    main .content .cn{
+        margin: 0 auto;
+    }
+    main .form{
+        position: relative;
+        display: block;
+        margin: 0rem auto;
+        left: 0;
+        top: 4rem;
+    }
+    main{
+        height: 100%;
+    }
+    
+    main{
+        height: 100%;
+    }
+}
