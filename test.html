@@ -1,55 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Design</title>
+    <meta name="description" content="TP_PraRoz">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
 </head>
+
 <body>
-    <main>
     <header>
-        <h1 class="logo">ProRoz</h1>            
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Design</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-        <form>
-            <input class="srch" type="search" name="password" placeholder="Type To text">
-            <button class="btn">Search</button>
+        <h2 class="logo">PraRoz</h2>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">DESIGN</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <form action="https://www.google.com/search" class="search" method="get" name="searchform">
+            <input class="srch" type="search" name="q" placeholder="Type To text" id="search" aria-required="true" aria-labelledby="search" required>
+            <input type="submit" name="bouton" value="Search" aria-label="true">
         </form>
     </header>
-    <section class="content">
-        <h2>Web Design & <br><span>Development</span><br> Course</h2>
-            <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque 
-                 expedita atque eveniet <br> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus 
-                <br> a quae totam ipsa illum minus laudantium?</p>
-            <button class="cn">JOIN US</button>
-            
-    <form class="menu">
-        <h2>Login Here</h2>
-        <input type="email" name="email" placeholder="Enter Email Here">
-        <input type="password" name="password" placeholder="Enter Password Here">
-        <button class="btnn">Login</button>
-        
-        <p class="link">Don't have an account<br>
-        <a href="#">Sign up </a> here </p>
-        <p class="liw">Log in with</p>
+    <main>
+        <section class="content">
+            <h1>Web Design & <br><span>Development</span> <br>Course</h1>
+            <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque
+                expedita atque eveniet <br> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus
+                <br> a quae totam ipsa illum minus laudantium?
+            </p>
 
-        <ul class="icons">
-            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
-            <li><a href="#"><ion-icon name="logo-google"></ion-icon></a></li>
-            <li><a href="#"><ion-icon name="logo-skype"></ion-icon></a></li>
-        </ul>
-    </form>
-    </section>
+            <a href="#" class="cn">JOIN US</a>
+
+            <section class="form">
+                <h2>Login Here</h2>
+                <p class="warning"></p>
+                <form action="#" method="get">
+                    <input type="email" name="email" placeholder="Enter Email Here" id="email" aria-required="true" aria-labelledby="email" required>
+                    <input type="password" name="password" placeholder="Enter Password Here" id="password" aria-required="true" aria-labelledby="password" required>
+                    <input type="submit" name="login" value="Login">
+                </form>
+
+                <p class="link">Don't have an account<br>
+                    <a href="#">Sign up </a>here
+                </p>
+                <p class="liw">Log in with</p>
+
+                <ul class="icons">
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-google"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-skype"></ion-icon></a></li>
+                </ul>
+            </section>
+        </section>
+            <footer>
+                <p>Jiek Ruan</p>
+            </footer>
     </main>
+    <script src="./js/app.js"></script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
+
 </html>
